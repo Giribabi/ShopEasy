@@ -1,0 +1,23 @@
+.item-container{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    border: 1px solid rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5%;
+    box-shadow: 3px 3px rgb(210, 209, 209);
+    background-color: rgb(255, 240, 253);
+}
+.item-container:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.image{
+    width: 100%;
+    padding: 2%;
+    border-radius: 1em;
+}

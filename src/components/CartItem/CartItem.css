@@ -1,0 +1,34 @@
+.cart-thumbnail{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1em;
+}
+.title{
+    font-size: larger;
+    font-weight: 600;
+}
+.price{
+    font-size: large;
+    font-weight: 530;
+}
+.quantity{
+    font-size: large;
+    font-weight: 530;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3%;
+}
+.cart-product{
+    background-color: rgb(255, 255, 179);
+    margin: 5%;
+    padding: 3%;
+    border: 2px solid gold;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+}
