@@ -9,8 +9,8 @@ import Loader from "../Loader/Loader"
 function Login(){
     const user = useContext(UserContext)
     const [isLogging,setIsLogging] = useState(false)
-    const [userName, setUserName] = useState("");
-    const [passWord, setPassword] = useState("");
+    const [userName, setUserName] = useState("atuny0");
+    const [passWord, setPassword] = useState("9uQFF1Lh");
     const [loginError,setLoginError] = useState(false)
     const [responseObject, setResponseObject] = useState({})
     if(loginError)
@@ -93,7 +93,7 @@ function Login(){
                     <input type='text' 
                     placeholder='Enter your username' 
                     className='input'  
-                    value="kminchelle"
+                    value="atuny0"
                     onChange={(e)=>setUserName(e.target.value)}
                     />
                 </div>
@@ -104,7 +104,7 @@ function Login(){
                     <input type='password' 
                     placeholder='Enter you password' 
                     className='input' 
-                    value="0lelplR"
+                    value="9uQFF1Lh"
                     onChange={(e)=>setPassword(e.target.value)}
                     />  
                 </div>
