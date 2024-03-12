@@ -93,6 +93,7 @@ function Login(){
                     <input type='text' 
                     placeholder='Enter your username' 
                     className='input'  
+                    value="kminchelle"
                     onChange={(e)=>setUserName(e.target.value)}
                     />
                 </div>
@@ -103,6 +104,7 @@ function Login(){
                     <input type='password' 
                     placeholder='Enter you password' 
                     className='input' 
+                    value="0lelplR"
                     onChange={(e)=>setPassword(e.target.value)}
                     />  
                 </div>
