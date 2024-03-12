@@ -1,6 +1,6 @@
 function Error() {
     return (
-        <h1 style={{ textAlign: "center" }}>
+        <h1>
             Oops! Check your internet connection
         </h1>
     );
