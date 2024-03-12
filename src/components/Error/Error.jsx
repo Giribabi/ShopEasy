@@ -1,4 +1,8 @@
-function Error(){
-    return <h1>Oops! Check your internet connection</h1>
+function Error() {
+    return (
+        <h1 style={{ textAlign: "center" }}>
+            Oops! Check your internet connection
+        </h1>
+    );
 }
-export default Error
+export default Error;
