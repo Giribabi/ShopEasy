@@ -10,11 +10,12 @@
     justify-content: space-around;
     align-items: center;
     margin: 3%;
-    border: 2px solid rgb(198, 134, 233);
+    border: 1px solid rgb(198, 134, 233);
     border-radius: 2em;
-    box-shadow: 3px 3px rgba(237, 178, 255, 0.999);
-    padding: 2% 2%;
+    box-shadow: 3px 3px 3px rgba(237, 178, 255, 0.999);
+    padding: 3%;
     width: 80%;
+    background-color: white;
 }
 .des {
     padding-left: 5%;

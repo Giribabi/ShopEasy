@@ -138,7 +138,8 @@ function Home() {
                             : cartProducts.total}
                     </div>
                 </div>
-                <div className="search">
+                {/*****you have added the id here to show the selected item clearly */}
+                <div className="search" id="item-show">
                     <input
                         type="search"
                         placeholder="Search Products"
@@ -243,7 +244,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="item-show" id="item-show">
+            <div className="item-show">
                 {isSelected && (
                     <ItemDetails
                         title={title}
@@ -259,7 +260,7 @@ function Home() {
                 {loading ? (
                     <Loader />
                 ) : (
-                    <div>
+                    <div className="products-grid-container">
                         {products.length === 0 ? (
                             <h2 className="no-products">
                                 Oops! No Products to display in the given price
@@ -267,9 +268,10 @@ function Home() {
                             </h2>
                         ) : (
                             <div className="products">
-                                {products.map((product) => (
+                                {products.map((product, index) => (
                                     <a href="#item-show">
                                         <div
+                                            key={product.brand + `${index}`}
                                             onClick={() => {
                                                 setIsSelected(true);
                                                 setBrand(product.brand);

@@ -10,7 +10,7 @@
     cursor: pointer;
     border-radius: 5%;
     box-shadow: 3px 3px rgb(210, 209, 209);
-    background-color: rgb(255, 240, 253);
+    background-color: rgb(255, 246, 255);
 }
 .item-container:hover {
     transform: scale(1.05);
