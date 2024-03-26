@@ -171,6 +171,9 @@ a {
     }
 }
 @media (max-width: 700px) {
+    .heading-name {
+        font-size: 200%;
+    }
     .products {
         grid-template-columns: 1fr 1fr;
         width: 80%;
@@ -181,6 +184,9 @@ a {
     }
 }
 @media (max-width: 500px) {
+    .heading-name {
+        font-size: 180%;
+    }
     .products {
         grid-template-columns: 1fr;
         width: 75%;
