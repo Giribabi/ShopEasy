@@ -46,12 +46,11 @@
     align-items: center;
 }
 .logout {
-    padding: 8%;
+    padding: 1vh;
     background-color: rgb(171, 43, 226);
     border-radius: 1em;
     font-weight: 650;
     color: white;
-    margin-bottom: 2%;
     cursor: pointer;
 }
 .logout:hover,
