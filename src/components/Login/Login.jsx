@@ -78,7 +78,7 @@ function Login(){
     return (
         isLogging
         ?
-        <div className='redirection'>
+        <div className='redirection' style={{fontSize:"200%"}}>
             You are being redirected
         <Loader/>
         </div>
