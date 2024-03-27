@@ -18,10 +18,22 @@
     background-color: white;
 }
 .des {
+    padding: 3%;
     padding-left: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(255, 255, 76);
+    border-radius: 1em;
+}
+.brand-title {
+    padding: 1%;
+    text-align: center;
+    color: rgb(255, 0, 195);
+    font-weight: 700;
+    margin: 1%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid saddlebrown;
 }
 .details {
     font-style: italic;

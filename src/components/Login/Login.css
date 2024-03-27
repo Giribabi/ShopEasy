@@ -1,42 +1,42 @@
-.heading{
+.heading {
     color: rgb(171, 43, 226);
     font-size: x-large;
     font-weight: 900;
     padding: 2%;
-    border: 5px solid rgb(171, 43, 226);
+    border: 5px solid rgb(222, 33, 209);
     border-radius: 1em;
 }
-.redirection{
+.redirection {
     font-family: cursive;
     text-align: center;
     margin: 2%;
 }
-.input{
-    border: 2px solid black;
-    padding: 2%;
+.input {
+    border: 1px solid black;
+    padding: 1%;
     border-radius: 1em;
 }
-.input-container{
+.input-container {
     display: flex;
     flex-direction: row;
     gap: 8px;
 }
-.pic{
+.pic {
     height: 40px;
     width: 40px;
 }
-.user-pic{
+.user-pic {
     height: 35px;
     width: 35px;
     border: 3px solid black;
     border-radius: 5em;
 }
-.icon{
+.icon {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.submit-btn{
+.submit-btn {
     padding: 8px 30px;
     background-color: rgb(171, 43, 226);
     border-radius: 1em;
@@ -46,11 +46,11 @@
     font-weight: 900;
     font-size: large;
 }
-.submit-btn:hover{
+.submit-btn:hover {
     transform: scale(1.1);
     transition: transform 1s;
 }
-.LoginPage{
+.LoginPage {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,4 +62,15 @@
     border: 3px solid grey;
     border-radius: 5%;
     box-shadow: 2px 2px grey;
+}
+@media (max-width: 500px) {
+    .input {
+        width: 80%;
+    }
+    .heading {
+        width: 90%;
+    }
+    .submit-btn {
+        width: 90%;
+    }
 }

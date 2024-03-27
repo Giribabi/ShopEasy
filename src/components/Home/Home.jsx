@@ -199,7 +199,7 @@ function Home() {
                                 className="filter-form"
                             >
                                 <div className="low">
-                                    Low-range:
+                                    Lower Price:
                                     <input
                                         type="number"
                                         style={{ width: "60%" }}
@@ -210,7 +210,7 @@ function Home() {
                                     />
                                 </div>
                                 <div className="high">
-                                    Higher-range:
+                                    Higher Price:
                                     <input
                                         type="number"
                                         style={{ width: "60%" }}
@@ -224,7 +224,7 @@ function Home() {
                                     type="submit"
                                     className="filter-submit-button"
                                 >
-                                    Submit
+                                    Submit filters
                                 </button>
                                 <button
                                     onClick={() => {
@@ -234,7 +234,7 @@ function Home() {
                                     }}
                                     className="filter-submit-button"
                                 >
-                                    Remove-filters
+                                    Remove filters
                                 </button>
                             </form>
                         )}
